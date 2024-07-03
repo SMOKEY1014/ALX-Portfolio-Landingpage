@@ -4,6 +4,7 @@ body {
     font-family: "Rubik", sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
 }
 
 header {
@@ -54,4 +55,97 @@ footer {
 .list-unstyled li {
     display: inline;
     margin: 0 10px;
+}
+
+/* Base styles */
+body {
+    padding-top: 100px;
+}
+
+.navbar-brand img {
+    height: 75px;
+}
+
+/* Header hero section */
+.hero {
+    height: 40dvw;
+    background-image: url('./AdminLTE/dist/img/gym-wp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+}
+
+/* About Section */
+.about p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: 50px;
+        /* Adjust this value as needed */
+    }
+
+    .hero {
+        height: auto;
+        background-size: cover;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    .section h2 {
+        font-size: 1.75rem;
+    }
+
+    .section p {
+        font-size: 1rem;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .hero h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero p {
+        font-size: 0.875rem;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+    }
+
+    .section p {
+        font-size: 0.875rem;
+    }
 }
